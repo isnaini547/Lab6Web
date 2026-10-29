@@ -61,9 +61,9 @@ Repositori ini berisi seluruh modul praktikum, dokumentasi laporan, serta eksper
 
 ### Lab 6: DOM Manipulation & Eksperimen 1 - 5
 1. **Eksperimen 1: To-Do List** – Fitur tambah dan hapus item tugas secara dinamis menggunakan manipulasi DOM.
-   - *Screenshot:* ![To-Do List](screenshots/exp1-todo.png)
+   - *Screenshot:* ![To-Do List](ss/fotoE.1.ng)
 2. **Eksperimen 2: Validasi Form Nama** – Pengecekan input client-side minimal 3 karakter dengan pesan notifikasi error/sukses.
-   - *Screenshot:* ![Validasi Form](screenshots/exp2-validation.png)
+   - *Screenshot:* ![Validasi Form](ss/fotoE.3.png)
 3. **Eksperimen 3: Dropdown Event Change** – Merespons perubahan opsi elemen select secara real-time.
    - *Screenshot:* ![Dropdown Change](screenshots/exp3-dropdown.png)
 4. **Eksperimen 4: Toggle Paragraf** – Menyembunyikan dan menampilkan elemen paragraf melalui manipulasi kelas CSS.
