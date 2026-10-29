@@ -67,7 +67,7 @@ Repositori ini berisi seluruh modul praktikum, dokumentasi laporan, serta eksper
    - *Screenshot:* ![Validasi Form](ss/fotoE.3.png)
    - 
 3. **Eksperimen 3: Dropdown Event Change** – memilih opsi
-   - *Screenshot:* ![Dropdown Change](ss/sotoE.5.png)
+   - *Screenshot:* ![Dropdown Change](ss/fotoE.5.png)
    - 
 4. **Eksperimen 4: Toggle Paragraf** – Menyembunyikan dan menampilkan elemen paragraf melalui manipulasi kelas CSS.
    - *Screenshot:* ![Toggle Paragraf](ss/fotoE.6.png)
