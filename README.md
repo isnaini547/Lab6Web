@@ -26,7 +26,10 @@ Repositori ini berisi seluruh modul praktikum, dokumentasi laporan, serta eksper
 - Pembuatan struktur tabel data secara terstruktur.
 - Penyusunan elemen formulir interaktif menggunakan berbagai jenis input, pilihan dropdown, dan tombol aksi.
 - **Hasil Lab 2:**
-  ![Hasil Lab 2](screenshots/lab2-hasil.png)
+  ![Hasil Lab 2](sss/foto2.2.png)
+  ![hasil lab 2](ss/foto2.3.png)
+  ![hasil lab 2](ss/foto3.1.png)
+  ![hasil lab 2](ss/foto3.2.png)
 
 ### Lab 3: Dasar CSS3 & Stylings
 - Penerapan gaya tampilan menggunakan Inline, Internal, dan External CSS.
