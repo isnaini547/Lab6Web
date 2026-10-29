@@ -17,7 +17,7 @@ Repositori ini berisi seluruh modul praktikum, dokumentasi laporan, serta eksper
 - Pengenalan struktur dokumen HTML standar.
 - Penggunaan tag heading, paragraf, daftar berurutan dan tidak berurutan, serta penyisipan tautan dan gambar.
 - **Hasil Lab 1:**
-  ![Hasil Lab 1](ss/foto1.0png)
+  ![Hasil Lab 1](ss/foto1.0.png)
 
 ### Lab 2: Form & Tabel HTML
 - Pembuatan struktur tabel data secara terstruktur.
