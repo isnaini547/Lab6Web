@@ -55,7 +55,9 @@ Repositori ini berisi seluruh modul praktikum, dokumentasi laporan, serta eksper
 - Pengenalan logika pemrograman JavaScript berbasis client-side.
 - Penggunaan variabel modern, fungsi (arrow function), struktur pengkondisian, dan perulangan.
 - **Hasil Lab 5:**
-  ![Hasil Lab 5](screenshots/lab5-hasil.png)
+  ![Hasil Lab 5](ss/foto6.1.png)
+  ![hasil lab 5](ss/foto6.2.png)
+  ![hasil lab 5](ss/foto6.3.png)
 
 ### Lab 6: DOM Manipulation & Eksperimen 1 - 5
 1. **Eksperimen 1: To-Do List** – Fitur tambah dan hapus item tugas secara dinamis menggunakan manipulasi DOM.
