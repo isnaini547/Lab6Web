@@ -20,13 +20,15 @@ Repositori ini berisi seluruh modul praktikum, dokumentasi laporan, serta eksper
   ![Hasil Lab 1](ss/foto1.0.png)
   ![Hasil lab 1](ss/foto1.1.png)
   ![hasil lab 1](ss/foto1.2.png)
+  ![hasil lab 1](ss/foto2.1.png)
+  ![hasil lab 1](ss/foto2.2.png)
   
 
 ### Lab 2: Form & Tabel HTML
 - Pembuatan struktur tabel data secara terstruktur.
 - Penyusunan elemen formulir interaktif menggunakan berbagai jenis input, pilihan dropdown, dan tombol aksi.
 - **Hasil Lab 2:**
-  ![Hasil Lab 2](sss/foto2.2.png)
+
   ![hasil lab 2](ss/foto2.3.png)
   ![hasil lab 2](ss/foto3.1.png)
   ![hasil lab 2](ss/foto3.2.png)
