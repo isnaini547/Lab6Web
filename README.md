@@ -18,6 +18,9 @@ Repositori ini berisi seluruh modul praktikum, dokumentasi laporan, serta eksper
 - Penggunaan tag heading, paragraf, daftar berurutan dan tidak berurutan, serta penyisipan tautan dan gambar.
 - **Hasil Lab 1:**
   ![Hasil Lab 1](ss/foto1.0.png)
+  ![Hasil lab 1](ss/foto1.1.png)
+  ![hasil lab 1](ss/foto1.2.png)
+  
 
 ### Lab 2: Form & Tabel HTML
 - Pembuatan struktur tabel data secara terstruktur.
