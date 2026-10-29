@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+ <html lang="id">
+     <head>
+        
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Praktikum DOM dan Event</title>
+          <link rel="stylesheet" href="style.css"> 
+          <script src="script.js" defer></script>
+         </head>
+          <body>
+             <h1 id="judul">Latihan DOM</h1>
+              <p id="pesan">Belum ada tindakan.</p> 
+              <button id="tombolAksi" type="button">Klik Saya</button>
+              <p id="teksGaya">Ini adalah paragraf untuk uji coba gaya CSS.</p>
+<button id="tombolGaya" type="button">Ubah Gaya</button>
+<div style="margin-top: 20px;">
+    <label for="namaInput">Nama:</label>
+    <input type="text" id="namaInput" maxlength="40">
+    <p>Jumlah karakter: <span id="jumlahKarakter">0</span></p>
+</div>
+<hr style="margin: 20px 0;">
+<h3>Form Pendaftaran</h3>
+<form id="formPendaftaran" novalidate>
+    <div>
+        <label for="nama">Nama lengkap</label><br>
+        <input id="nama" name="nama" type="text">
+    </div>
+    <div style="margin-top: 10px;">
+        <label for="email">Email</label><br>
+        <input id="email" name="email" type="email">
+    </div>
+    <div style="margin-top: 10px;">
+        <label for="usia">Usia</label><br>
+        <input id="usia" name="usia" type="number" min="17" max="100">
+    </div>
+    <button type="submit" style="margin-top: 10px;">Daftar</button>
+</form>
+<p id="pesanForm" aria-live="polite" style="font-weight: bold; margin-top: 10px;"></p>
+<hr style="margin: 20px 0;">
+<section>
+    <h2>Daftar Tugas</h2>
+    <label for="inputTugas">Tugas baru</label><br>
+    <input id="inputTugas" type="text">
+    <button id="tambahTugas" type="button">Tambah</button>
+    <p id="pesanTugas" aria-live="polite" style="font-weight: bold; margin-top: 10px;"></p>
+    <ul id="daftarTugas" style="margin-top: 10px;"></ul>
+</section>
+<hr style="margin: 30px 0;">
+<section style="max-width: 500px; margin: auto; font-family: sans-serif;">
+    <h2>Pendaftaran Workshop Pemrograman Web</h2>
+    
+    <form id="formWorkshop" novalidate>
+        <div style="margin-bottom: 15px;">
+            <label for="workshopNama">Nama Lengkap:</label><br>
+            <input type="text" id="workshopNama" style="width: 100%; padding: 8px; margin-top: 5px;" maxlength="50">
+            <small>Karakter tersisa: <span id="sisaKarakter">50</span></small>
+        </div>
+
+        <div style="margin-bottom: 15px;">
+            <label for="workshopEmail">Email:</label><br>
+            <input type="email" id="workshopEmail" style="width: 100%; padding: 8px; margin-top: 5px;">
+        </div>
+
+        <div style="margin-bottom: 15px;">
+            <label for="workshopSesi">Pilihan Sesi:</label><br>
+            <select id="workshopSesi" style="width: 100%; padding: 8px; margin-top: 5px;">
+                <option value="">-- Pilih Sesi Workshop --</option>
+                <option value="Sesi 1: Dasar JavaScript & DOM">Sesi 1: Dasar JavaScript & DOM</option>
+                <option value="Sesi 2: Event Handling Lanjutan">Sesi 2: Event Handling Lanjutan</option>
+                <option value="Sesi 3: Validasi Form & API">Sesi 3: Validasi Form & API</option>
+            </select>
+        </div>
+
+        <button type="submit" style="padding: 10px 15px; background-color: #3478c8; color: white; border: none; cursor: pointer;">Daftar Workshop</button>
+        <button type="reset" id="btnReset" style="padding: 10px 15px; background-color: #ccc; border: none; cursor: pointer; margin-left: 10px;">Reset</button>
+    </form>
+
+    <p id="pesanWorkshop" style="margin-top: 15px; font-weight: bold;"></p>
+</section>
+<section
+ style="margin-top: 30px;">
+    <h2>Eksperimen Sembunyikan Paragraf</h2>
+    <p id="teksEksperimen">Ini adalah paragraf untuk eksperimen DOM.</p>
+    <button id="btnToggle" type="button">Sembunyikan Paragraf</button>
+</section>
+!-- EKSPERIMEN 1: To-Do List --
+    <section>
+        <h3>Eksperimen 1: Daftar Tugas (To-Do List)</h3>
+        <label for="todoInput">Tugas baru</label><br>
+        <input type="text" id="todoInput" placeholder="Ketik tugas...">
+        <button type="button" id="btnTambah">Tambah</button>
+        <p id="statusPesan" style="color: green; font-weight: bold; margin-top: 5px;"></p>
+        <ul id="daftarTugas"></ul>
+    </section>
+
+    <!-- EKSPERIMEN 2: Validasi Nama (Tanpa Form) -->
+    <section>
+        <h3>Eksperimen 2: Validasi Form Nama</h3>
+        <label for="inputNama">Nama Lengkap:</label><br>
+        <input type="text" id="inputNama" placeholder="Minimal 3 karakter"><br><br>
+        <button type="button" id="btnProses">Cek Nama</button>
+        <p id="pesanError" style="margin-top: 5px; font-weight: bold;"></p>
+    </section>
+    <!-- EKSPERIMEN 3: Dropdown Event Change -->
+    <section>
+        <h3>Eksperimen 3: Dropdown Sesi Workshop</h3>
+        <label for="workshopSesi">Pilih Sesi:</label><br>
+        <select id="workshopSesi">
+            <option value="">-- Pilih Sesi --</option>
+            <option value="Sesi Pagi (08:00)">Sesi Pagi (08:00)</option>
+            <option value="Sesi Siang (13:00)">Sesi Siang (13:00)</option>
+            <option value="Sesi Sore (16:00)">Sesi Sore (16:00)</option>
+        </select>
+        <p id="pesanDropdown" style="margin-top: 5px; font-weight: bold;"></p>
+    </section>
+    
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // --- SCRIPT EKSPERIMEN 1: To-Do List ---
+        const todoInput = document.getElementById("todoInput");
+        const btnTambah = document.getElementById("btnTambah");
+        const daftarTugas = document.getElementById("daftarTugas");
+
+        if (btnTambah && todoInput && daftarTugas) {
+            btnTambah.addEventListener("click", function () {
+                const teks = todoInput.value.trim();
+                if (teks === "") return;
+
+                const li = document.createElement("li");
+                li.textContent = teks + " ";
+
+                const btnHapus = document.createElement("button");
+                btnHapus.textContent = "Hapus";
+                btnHapus.style.color = "red";
+                btnHapus.style.marginLeft = "5px";
+
+                btnHapus.addEventListener("click", function () {
+                    daftarTugas.removeChild(li);
+                });
+
+                li.appendChild(btnHapus);
+                daftarTugas.appendChild(li);
+                todoInput.value = "";
+            });
+        }
+
+        // --- SCRIPT EKSPERIMEN 2: Validasi Nama ---
+        const btnProses = document.getElementById("btnProses");
+        const inputNama = document.getElementById("inputNama");
+        const pesanError = document.getElementById("pesanError");
+
+        if (btnProses && inputNama && pesanError) {
+            btnProses.addEventListener("click", function () {
+                const nama = inputNama.value.trim();
+
+                if (nama === "" || nama.length < 3) {
+                    pesanError.textContent = "Nama wajib diisi dan minimal 3 karakter!";
+                    pesanError.style.color = "red";
+                } else {
+                    pesanError.textContent = "Validasi sukses! Halo, " + nama + ".";
+                    pesanError.style.color = "green";
+                    inputNama.value = "";
+                }
+            });
+        }
+    });
+</script>
+<!-- EKSPERIMEN 5: Analisis Penempatan Script -->
+<section style="margin-top: 30px; padding: 15px; border: 1px solid #ccc;">
+    <h3>Eksperimen 5: Penempatan Script & Atribut Defer</h3>
+    <p>
+        <strong>Analisis:</strong> Penempatan script di bagian <code>&lt;head&gt;</code> tanpa atribut <code>defer</code> menyebabkan JavaScript dieksekusi sebelum elemen HTML selesai dimuat, yang berakibat pada kegagalan eksekusi dan munculnya error di konsol browser.
+    </p>
+    <p>
+        <strong>Solusi yang digunakan:</strong> Meletakkan script di akhir dokumen (sebelum tag <code>&lt;/body&gt;</code>) atau menggunakan atribut <code>defer</code> agar pemuatan DOM berjalan sinkron dan aman.
+    </p>
+</section>
+
+             </body>
+              </html> 
