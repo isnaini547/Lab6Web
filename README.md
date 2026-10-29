@@ -35,7 +35,10 @@ Repositori ini berisi seluruh modul praktikum, dokumentasi laporan, serta eksper
 - Penerapan gaya tampilan menggunakan Inline, Internal, dan External CSS.
 - Penggunaan selektor elemen, kelas, ID, serta pengaturan Box Model (margin, padding, border).
 - **Hasil Lab 3:**
-  ![Hasil Lab 3](screenshots/lab3-hasil.png)
+  ![Hasil Lab 3](ss/foto4.1.png)
+  ![hasil lab 3](ss/foto4.2.png)
+  ![hasil lab 3](ss/foto4.3.png)
+  
 
 ### Lab 4: Responsive Web Design (Flexbox & Grid)
 - Pengaturan tata letak modern menggunakan CSS Flexbox dan CSS Grid.
