@@ -46,10 +46,10 @@ Repositori ini berisi seluruh modul praktikum, dokumentasi laporan, serta eksper
 - Pengaturan tata letak modern menggunakan CSS Flexbox dan CSS Grid.
 - Pembuatan desain web responsif yang menyesuaikan ukuran layar menggunakan Media Queries.
 - **Hasil Lab 4:**
-  ![Hasil Lab 4](foto5.1.png)
-  ![hasil lab 4](foto5.2.png)
-  ![hasil lab 4](foto5.3.png)
-  ![hasil lab 4](foto5.4.png)
+  ![Hasil Lab 4](ss/foto5.1.png)
+  ![hasil lab 4](ss/foto5.2.png)
+  ![hasil lab 4](ss/foto5.3.png)
+  ![hasil lab 4](ss/foto5.4.png)
 
 ### Lab 5: Dasar Pemrograman JavaScript ES6
 - Pengenalan logika pemrograman JavaScript berbasis client-side.
