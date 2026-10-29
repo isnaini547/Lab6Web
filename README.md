@@ -64,12 +64,13 @@ Repositori ini berisi seluruh modul praktikum, dokumentasi laporan, serta eksper
    - *Screenshot:* ![To-Do List](ss/fotoE.1.ng)
 2. **Eksperimen 2: Validasi Form Nama** – Pengecekan input client-side minimal 3 karakter dengan pesan notifikasi error/sukses.
    - *Screenshot:* ![Validasi Form](ss/fotoE.3.png)
-3. **Eksperimen 3: Dropdown Event Change** – Merespons perubahan opsi elemen select secara real-time.
-   - *Screenshot:* ![Dropdown Change](screenshots/exp3-dropdown.png)
+3. **Eksperimen 3: Dropdown Event Change** – memilih opsi
+   - *Screenshot:* ![Dropdown Change](ss/sotoE.5.png)
 4. **Eksperimen 4: Toggle Paragraf** – Menyembunyikan dan menampilkan elemen paragraf melalui manipulasi kelas CSS.
-   - *Screenshot:* ![Toggle Paragraf](screenshots/exp4-toggle.png)
+   - *Screenshot:* ![Toggle Paragraf](ss/fotoE.6.png)
+   - ![paragraf](ss/fotoE.7.png)
 5. **Eksperimen 5: Analisis Penempatan Script** – Studi kasus pemuatan DOM, penempatan tag script, dan penggunaan event DOMContentLoaded.
-   - *Screenshot:* ![Script Placement](screenshots/exp5-script.png)
+   - *Screenshot:* ![Script Placement](ss/fotoE.8.png)
 
 ---
 
