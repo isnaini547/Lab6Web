@@ -69,7 +69,10 @@ Repositori ini berisi seluruh modul praktikum, dokumentasi laporan, serta eksper
 4. **Eksperimen 4: Toggle Paragraf** – Menyembunyikan dan menampilkan elemen paragraf melalui manipulasi kelas CSS.
    - *Screenshot:* ![Toggle Paragraf](ss/fotoE.6.png)
    - ![paragraf](ss/fotoE.7.png)
-5. **Eksperimen 5: Analisis Penempatan Script** – Studi kasus pemuatan DOM, penempatan tag script, dan penggunaan event DOMContentLoaded.
+5. ### Eksperimen 5: Penempatan Script & Atribut Defer
+- **Analisis:** Penempatan script di bagian `<head>` tanpa atribut *defer* menyebabkan JavaScript dieksekusi sebelum elemen HTML selesai dimuat, yang berakibat pada kegagalan eksekusi dan munculnya *error* di konsol *browser*.
+- **Solusi yang Digunakan:** Meletakkan script di akhir dokumen (sebelum tag `</body>`) atau menggunakan atribut *defer* agar pemuatan DOM berjalan sinkron dan aman.
+- *Screenshot:* ![Analisis Script](screenshots/exp5-script.png)
    - *Screenshot:* ![Script Placement](ss/fotoE.8.png)
 
 ---
